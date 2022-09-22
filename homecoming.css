@@ -1,0 +1,63 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    border: 3px solid #333;
+    border-radius: 3vw;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 2vw 4.8vw;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: darkgreen;
+  }
+  
+  .active {
+    background-color: gold;
+  }
+  p {
+    color: greenyellow;
+    font-size: 2.2vw;
+  }
+  h1 {
+    font-size: 6vw;
+    color: gold;
+  }
+  body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-repeat: repeat-y;
+    background-image: url("Backroung\ for\ Homecoming.png");
+    background-size: 99vw;
+  }
+  img {
+    width: 45%;
+    float: middle;
+    border: 1.5vw;
+    border-radius: 4vw;
+    border-style: ridge;
+    border-color: darkgreen;
+  }
+  h2 {
+    font-size: 4vw;
+    color: darkgreen;
+  }
+  .class1 {
+    font-size: 0.5vw;
+    color: gold;
+  }
